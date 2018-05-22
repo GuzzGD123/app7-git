@@ -12,7 +12,7 @@ $(document).ready(function(e){
 				switch(opt)
 				{
 					case 1:
-					navigator.notification.beep(1);
+					navigator.notification.beep(2);
 					break;
 					
 					case 2:
