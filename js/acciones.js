@@ -5,7 +5,7 @@ $(document).ready(function(e){
 		
 		$('#izquierda').on("swipeleft",function(){
 			navigator .notification. alert("Deslizó a la izquierda",function(){"Aplicación7","Aceptar"});
-});
+});//cierre deslizar izquierda
 
 		$('#derecha').on("swiperight",function(){
 			navigator .notification. confirm("¿Qué quieres hacer?",function(opt){
@@ -21,6 +21,6 @@ $(document).ready(function(e){
 				}
 			},"Aplicación7","Beep,Vibrar,Cancelar");
 			
-		});
-	},false);
-});
+		});//cierre deslizar derecha
+	},false); //cierre del deviceready
+}); // cierre del document principal
